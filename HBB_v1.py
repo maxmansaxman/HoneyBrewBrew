@@ -49,7 +49,8 @@ def brew_writer(filePath,beer):
   file=open(filePath,'w')
   cPickle.dump(beer,file)
   print 'The beer %s was saved to the file \n%s' % (beer.name, filePath)
-  file.close
+  file.close()
+  
 
 
 
